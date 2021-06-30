@@ -97,6 +97,9 @@ Helpful commands:
 You will need to use the `setuid` program in your home directory for this challenge.
 The next flag is stored in a file named `readme` in airmanbob's home directory, `/home/airmanbob`
 
+Hint:
+`setuid` needs to be run from Airman Joe's home directory, or called explicitly with `/home/airmanjoe/setuid`
+
 Helpful commands:
 `whoami, cat, ls -la`
 
@@ -104,5 +107,12 @@ Helpful commands:
 
 The USB drive provided to you is a 64GB drive, but it only shows up as having 32GB of space. I wonder why that is? Perhaps there's something hidden for you to find?
 
+When plugged in two devices show up in the `/dev` folder:
+
+* `/dev/sdb`
+* `/dev/sdb2`
+
+These are both files that allow linux to talk with the USB drive.  It appears that `/dev/sdb1` has been deleted, but any text data might still be accessible on the drive?
+
 Helpful commands:
-`dmesg, all previous commands ;)`
+`~/setuid dmesg`, all previous commands ;)
