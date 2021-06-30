@@ -98,7 +98,7 @@ You will need to use the `setuid` program in your home directory for this challe
 The next flag is stored in a file named `readme` in airmanbob's home directory, `/home/airmanbob`
 
 Helpful commands:
-`whoami, cat`
+`whoami, cat, ls -la`
 
 ## Flag 10 - USB
 
