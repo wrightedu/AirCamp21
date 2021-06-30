@@ -9,9 +9,11 @@
 ### Getting started
 
 1. Log into your local system (the password is just password, yes we know thats bad).
-2. Check out the challenge1.md for details about each of the flags!
+2. Write your group members names on a piece of paper, this is where you will write down any flags you find.
+   (please only use one sheet per group)
+3. Check out the challenge1.md for details about each of the flags!
 
-### Useful linux tips
+### Useful linux tips (may or may not apply elsewhere)
 ### `man`
 One of the most important commands in linux is the `man` command.  Typing 
 `man` followed by the name of another command shows you the online manual 
@@ -23,7 +25,12 @@ command).
 * `q` will exit out of the man page
 
 Each challenge provides you with a list of possibly helpful linux commands.  
-If you get stuck or are unsure about what a command does just check that command's `man` page.
+If you get stuck or are unsure about what a command does, just check that command's `man` page.
+
+### `Google`
+While not a linux command, still sometimes useful...  Feel free to google any of the challenge
+topics or hints, but dont forget you might need to play with the command to figure out how 
+its really working.
 
 ### `ctrl` + `c`
 The next most important command isn't so much a command as it is a shortcut.  
