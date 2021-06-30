@@ -1,4 +1,4 @@
-# Challenge 1 - Find the flags
+# Challenge 1 - /home sweet /home
 
 Airman Joe has hidden several flags around his Operating System (OS). Each flag consists of two
 words joined by a symbol. Examples:
